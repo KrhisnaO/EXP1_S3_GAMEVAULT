@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infantiles – GameVault</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <!-- Estilos -->
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header class="header-animation">
+    <div class="container d-flex align-items-center">
+      <a href="../index.html" class="back-button">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14" />
+          <path d="M12 19l-7-7 7-7" />
+        </svg>
+        <span>Volver al Inicio</span>
+      </a>
+      <a href="../index.html" class="logo-text ms-3">GameVault</a>
+    </div>
+  </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="../../index.html">Inicio</a>
+      <a href="../categorias/estrategia.html">Estrategia</a>
+      <a href="../categorias/familiares.html">Familiares</a>
+      <a href="../categorias/infantiles.html">Infantiles</a>
+      <a href="../categorias/cartas.html">Cartas</a>
+      <span id="menu-dinamico"></span>
+    </nav>
+    
+
+  
+    <!-- MAIN -->
+  <main class="fade-in-up">
+    <div class="container">
+      <h1 class="slide-in-left">Juegos Infantiles</h1>
+      <p class="subtitulo fade-in-up">Diversión y aprendizaje para los más pequeños</p>
+
+      <section class="juegos-grid">
+         <!-- Tarjeta 1 -->
+        <article class="game-card" 
+                  data-name="Memoria Mágica" 
+                  data-price="14990"
+                  style="animation-delay: 0s">
+          <div class="card-inner">
+            <img src="../img/NOTFOUND.png" alt="Memoria Mágica">
+            <h2>Memoria Mágica</h2>
+            <p class="descripcion">Un divertido reto para mejorar la memoria y concentración.</p>
+            <div class="precios">
+              <span class="precio-actual">$14.990</span>
+            </div>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </article>
+
+         <!-- Tarjeta 2 -->
+        <article class="game-card" 
+                  data-name="Mundo de Colores"
+                  data-price="12990"
+                  data-original-price="18990"
+                  style="animation-delay: 0.2s">
+          <div class="card-inner">
+            <img src="../img/NOTFOUND.png" alt="Mundo de Colores">
+            <div class="tag-sale pulse-animation">
+              <svg width="16" height="16" fill="currentColor">
+                <path d="M2 2h4l8 8-4 4-8-8V2z"/>
+              </svg>
+              <span>OFERTA</span>
+            </div>
+
+            <h2>Mundo de Colores</h2>
+            <p class="descripcion">Aprende los colores mientras juegas con amigos.</p>
+            <div class="precios">
+              <span class="precio-actual">$12.990</span>
+              <span class="precio-original">$18.990</span>
+            </div>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </article>
+
+         <!-- Tarjeta 3 -->
+
+        <article class="game-card" 
+                  data-name="Animalitos Traviesos"
+                  data-price="17500"       
+                  style="animation-delay: 0.4s">
+          <div class="card-inner">
+            <img src="../img/NOTFOUND.png" alt="Animalitos Traviesos">
+
+            <h2>Animalitos Traviesos</h2>
+            <p class="descripcion">Juego interactivo con animales para aprender y reír.</p>
+            <div class="precios">
+              <span class="precio-actual">$17.500</span>
+            </div>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+ <!-- CTA -->
+ <section class="container fade-in-up text-center mt-5">
+    <h3>¿Listo para jugar?</h3>
+    <p>Únete a miles de jugadores que ya confían en GameVault</p>
+    <a href="../index.html" class="btn-comprar">Explorar Todos los Juegos</a>
+  </section>
+  
+    <!-- FOOTER -->
+    <footer class="container text-center py-4" style="opacity:0.6; font-size:0.9rem;">
+      © 2025 GameVault. Todos los derechos reservados.
+    </footer>
+  
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../js/sesion.js"></script>
+    <script src="../js/carrito.js"></script>
+
+</body>
+</html>

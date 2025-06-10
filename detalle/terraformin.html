@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terraforming Mars – GameVault</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu estilo principal -->
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header-animation">
+    <div class="container">
+      <a href="../categorias/estrategia.html" class="back-button">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14" />
+          <path d="M12 19l-7-7 7-7" />
+        </svg>
+        <span>Volver a Estrategia</span>
+      </a>
+      <a href="../../index.html" class="logo-text">GameVault</a>
+    </div>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="../../index.html">Inicio</a>
+    <a href="../categorias/estrategia.html">Estrategia</a>
+    <a href="../categorias/familiares.html">Familiares</a>
+    <a href="../categorias/infantiles.html">Infantiles</a>
+    <a href="../categorias/cartas.html">Cartas</a>
+    <span id="menu-dinamico"></span>
+  </nav>
+
+  <!-- DETALLE DE Terraforming Mars -->
+  <main class="container">
+    <article class="detalle-juego fade-in-up"
+             data-name="Terraforming Mars"
+             data-price="41990"
+             data-original-price="49990">
+             
+      <div class="detalle-imagen">
+        <img src="../img/Terra.png" alt="Portada de Terraforming Mars" loading="lazy">
+      </div>
+      <div class="detalle-info">
+        <h1>Terraforming Mars</h1>
+        <p class="descripcion">
+          En <em>Terraforming Mars</em>, lideras una corporación con el reto de transformar Marte en un mundo habitable.
+          Desarrolla proyectos ecológicos, científicos e industriales para incrementar temperatura, oxígeno y océanos.
+        </p>
+
+        <ul class="ficha-tecnica">
+          <li><strong>Edad:</strong> 12+</li>
+          <li><strong>Jugadores:</strong> 1–5</li>
+          <li><strong>Duración:</strong> 90–120 min</li>
+          <li><strong>Mecánicas:</strong> Gestión de recursos, construcción de motores, objetivos secretos</li>
+        </ul>
+
+        <div class="precios">
+          <span class="precio-actual">$41.990</span>
+        </div>
+
+        <button class="btn-comprar btn-add-to-cart">Agregar al carrito</button>
+      </div>
+    </article>
+  </main>
+  
+  <!-- FOOTER -->
+  <footer class="container text-center py-4" style="opacity:0.6; font-size:0.9rem;">
+    © 2025 GameVault. Todos los derechos reservados.
+  </footer>
+  
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/sesion.js"></script>
+  <script src="../js/carrito.js"></script>
+</body>
+</html>

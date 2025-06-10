@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Administración - GameVault</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header-animation">
+    <div class="container">
+      <h1 class="logo-text">GameVault - Administración</h1>
+      <p class="subtitulo fade-in-up">Panel de administración de juegos</p>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="categorias/estrategia.html">Estrategia</a>
+    <a href="categorias/familiares.html">Familiares</a>
+    <a href="categorias/infantiles.html">Infantiles</a>
+    <a href="categorias/cartas.html">Cartas</a>
+    <span id="menu-dinamico"></span>
+  </nav>
+
+  <main class="container my-5">
+
+    <h2 class="mb-4 text-center">Gestión de Juegos</h2>
+
+    <!-- Formulario de carga de juegos -->
+    <form id="form-juego" class="mb-5">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <input type="text" id="nombre" class="form-control" placeholder="Nombre del Juego" required>
+        </div>
+        <div class="col-md-3">
+          <input type="text" id="categoria" class="form-control" placeholder="Categoría" required>
+        </div>
+        <div class="col-md-3">
+          <input type="number" id="precio" class="form-control" placeholder="Precio" required min="1">
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-success w-100">Agregar</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Tabla de listado de juegos -->
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-juegos"></tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <footer class="container text-center my-4">
+    © 2025 GameVault - Panel Admin
+  </footer>
+
+  <script src="js/sesion.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
