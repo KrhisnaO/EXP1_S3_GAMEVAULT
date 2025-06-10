@@ -29,3 +29,8 @@
 4. Finaliza tu “compra” directamente en `carrito.html`.  
 5. Con usuario `admin@gamevault.com` / `Admin123` accede al panel `admin.html` para gestionar el catálogo.
 
+## Vista de la aplicación web
+
+![GAMEVAULT](https://github.com/user-attachments/assets/24d99d33-ef5b-4a38-840f-d6a67bc20f06)
+
+
